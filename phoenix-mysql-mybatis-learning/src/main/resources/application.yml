@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+
+mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    #数据库相关配置
+    db-config:
+      #驼峰下划线转换
+      column-underline: true
+    banner: false
+  #原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'

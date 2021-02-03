@@ -1,3 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
 # Compiled class file
 *.class
 
@@ -21,3 +23,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*/*.iml
+*/*/*.iml
+.idea/*
+./*.iml
+./pd-*/*.iml
+./*/target/
+
+.idea/compiler.xml
+.idea/libraries/
+*/*.iml
+*.iml
+!/supersindox.iml
+*/target/
+*.iml
+*/*.iml
